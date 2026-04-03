@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme{
+    --breakpoint-lg: 1250px;
+    --breakpoint-md: 950px;
+    --breakpoint-sm: 750px;
+    --breakpoint-vsm: 530px;
+    --breakpoint-vvsm: 450px;
+}
+
+.burger:hover .line1 {
+  transform: scaleX(1.227);
+}
+
+.burger:hover .line3 {
+  transform: scaleX(1.588);
+}
+
+.line1,
+.line3 {
+  transform-origin: left;
+  transition: transform 0.2s ease;
+}
+
+.scrollbar-hidden {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;;
+}
+
+.followInstagram{
+  font-family: 'Times New Roman', Times, serif;
+}
